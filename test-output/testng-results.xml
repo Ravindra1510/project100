@@ -1,0 +1,229 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="4" total="9" passed="5">
+  <reporter-output>
+    <line>
+      <![CDATA[start]]>
+    </line>
+    <line>
+      <![CDATA[connectDB]]>
+    </line>
+    <line>
+      <![CDATA[openApp]]>
+    </line>
+    <line>
+      <![CDATA[login]]>
+    </line>
+    <line>
+      <![CDATA[registerUser]]>
+    </line>
+    <line>
+      <![CDATA[logOut]]>
+    </line>
+    <line>
+      <![CDATA[login]]>
+    </line>
+    <line>
+      <![CDATA[registerUser]]>
+    </line>
+    <line>
+      <![CDATA[logOut]]>
+    </line>
+    <line>
+      <![CDATA[login]]>
+    </line>
+    <line>
+      <![CDATA[deleteAllUser]]>
+    </line>
+    <line>
+      <![CDATA[logOut]]>
+    </line>
+    <line>
+      <![CDATA[closeApp]]>
+    </line>
+    <line>
+      <![CDATA[openApp]]>
+    </line>
+    <line>
+      <![CDATA[login]]>
+    </line>
+    <line>
+      <![CDATA[executing testB]]>
+    </line>
+    <line>
+      <![CDATA[logOut]]>
+    </line>
+    <line>
+      <![CDATA[closeApp]]>
+    </line>
+    <line>
+      <![CDATA[disconnectDB]]>
+    </line>
+    <line>
+      <![CDATA[End]]>
+    </line>
+  </reporter-output>
+  <suite name="Suite" duration-ms="48857" started-at="2017-09-10T06:54:57Z" finished-at="2017-09-10T06:55:46Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="48857" started-at="2017-09-10T06:54:57Z" finished-at="2017-09-10T06:55:46Z">
+      <class name="test.DemoC">
+        <test-method status="PASS" signature="openBrowser()[pri:0, instance:test.DemoC@51efea79]" name="openBrowser" is-config="true" duration-ms="32375" started-at="2017-09-10T12:24:58Z" finished-at="2017-09-10T12:25:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method status="PASS" signature="testC()[pri:0, instance:test.DemoC@51efea79]" name="testC" duration-ms="12717" started-at="2017-09-10T12:25:30Z" finished-at="2017-09-10T12:25:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testC -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:test.DemoC@51efea79]" name="closeBrowser" is-config="true" duration-ms="3687" started-at="2017-09-10T12:25:43Z" finished-at="2017-09-10T12:25:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- test.DemoC -->
+      <class name="test.DemoB">
+        <test-method status="PASS" signature="OpenApp()[pri:0, instance:test.DemoB@5034c75a]" name="OpenApp" is-config="true" duration-ms="0" started-at="2017-09-10T12:25:46Z" finished-at="2017-09-10T12:25:46Z">
+          <reporter-output>
+            <line>
+              <![CDATA[openApp]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- OpenApp -->
+        <test-method status="PASS" signature="login()[pri:0, instance:test.DemoB@5034c75a]" name="login" is-config="true" duration-ms="1" started-at="2017-09-10T12:25:46Z" finished-at="2017-09-10T12:25:46Z">
+          <reporter-output>
+            <line>
+              <![CDATA[login]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method status="PASS" signature="testB()[pri:2, instance:test.DemoB@5034c75a]" name="testB" duration-ms="2" started-at="2017-09-10T12:25:46Z" finished-at="2017-09-10T12:25:46Z">
+          <reporter-output>
+            <line>
+              <![CDATA[executing testB]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testB -->
+        <test-method status="PASS" signature="closeApp()[pri:0, instance:test.DemoB@5034c75a]" name="closeApp" is-config="true" duration-ms="0" started-at="2017-09-10T12:25:46Z" finished-at="2017-09-10T12:25:46Z">
+          <reporter-output>
+            <line>
+              <![CDATA[closeApp]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- closeApp -->
+        <test-method status="PASS" signature="logOut()[pri:0, instance:test.DemoB@5034c75a]" name="logOut" is-config="true" duration-ms="0" started-at="2017-09-10T12:25:46Z" finished-at="2017-09-10T12:25:46Z">
+          <reporter-output>
+            <line>
+              <![CDATA[logOut]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- logOut -->
+      </class> <!-- test.DemoB -->
+      <class name="test.DemoA">
+        <test-method status="PASS" signature="start()[pri:0, instance:test.DemoA@6d00a15d]" name="start" is-config="true" duration-ms="12" started-at="2017-09-10T12:24:57Z" finished-at="2017-09-10T12:24:57Z">
+          <reporter-output>
+            <line>
+              <![CDATA[start]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- start -->
+        <test-method status="PASS" signature="ConnectDB()[pri:0, instance:test.DemoA@6d00a15d]" name="ConnectDB" is-config="true" duration-ms="0" started-at="2017-09-10T12:24:57Z" finished-at="2017-09-10T12:24:57Z">
+          <reporter-output>
+            <line>
+              <![CDATA[connectDB]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- ConnectDB -->
+        <test-method status="PASS" signature="OpenApp()[pri:0, instance:test.DemoA@6d00a15d]" name="OpenApp" is-config="true" duration-ms="0" started-at="2017-09-10T12:25:46Z" finished-at="2017-09-10T12:25:46Z">
+          <reporter-output>
+            <line>
+              <![CDATA[openApp]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- OpenApp -->
+        <test-method status="PASS" signature="registerUser()[pri:0, instance:test.DemoA@6d00a15d]" name="registerUser" duration-ms="3" started-at="2017-09-10T12:25:46Z" finished-at="2017-09-10T12:25:46Z">
+          <reporter-output>
+            <line>
+              <![CDATA[registerUser]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- registerUser -->
+        <test-method status="PASS" signature="login()[pri:0, instance:test.DemoA@6d00a15d]" name="login" is-config="true" duration-ms="0" started-at="2017-09-10T12:25:46Z" finished-at="2017-09-10T12:25:46Z">
+          <reporter-output>
+            <line>
+              <![CDATA[login]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method status="PASS" signature="logOut()[pri:0, instance:test.DemoA@6d00a15d]" name="logOut" is-config="true" duration-ms="1" started-at="2017-09-10T12:25:46Z" finished-at="2017-09-10T12:25:46Z">
+          <reporter-output>
+            <line>
+              <![CDATA[logOut]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- logOut -->
+        <test-method status="PASS" signature="registerUser()[pri:0, instance:test.DemoA@6d00a15d]" name="registerUser" duration-ms="2" started-at="2017-09-10T12:25:46Z" finished-at="2017-09-10T12:25:46Z">
+          <reporter-output>
+            <line>
+              <![CDATA[registerUser]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- registerUser -->
+        <test-method status="PASS" signature="login()[pri:0, instance:test.DemoA@6d00a15d]" name="login" is-config="true" duration-ms="0" started-at="2017-09-10T12:25:46Z" finished-at="2017-09-10T12:25:46Z">
+          <reporter-output>
+            <line>
+              <![CDATA[login]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method status="PASS" signature="logOut()[pri:0, instance:test.DemoA@6d00a15d]" name="logOut" is-config="true" duration-ms="1" started-at="2017-09-10T12:25:46Z" finished-at="2017-09-10T12:25:46Z">
+          <reporter-output>
+            <line>
+              <![CDATA[logOut]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- logOut -->
+        <test-method status="PASS" signature="login()[pri:0, instance:test.DemoA@6d00a15d]" name="login" is-config="true" duration-ms="2" started-at="2017-09-10T12:25:46Z" finished-at="2017-09-10T12:25:46Z">
+          <reporter-output>
+            <line>
+              <![CDATA[login]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method status="PASS" signature="deleteAllUser()[pri:1, instance:test.DemoA@6d00a15d]" name="deleteAllUser" duration-ms="2" started-at="2017-09-10T12:25:46Z" finished-at="2017-09-10T12:25:46Z">
+          <reporter-output>
+            <line>
+              <![CDATA[deleteAllUser]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- deleteAllUser -->
+        <test-method status="PASS" signature="logOut()[pri:0, instance:test.DemoA@6d00a15d]" name="logOut" is-config="true" duration-ms="0" started-at="2017-09-10T12:25:46Z" finished-at="2017-09-10T12:25:46Z">
+          <reporter-output>
+            <line>
+              <![CDATA[logOut]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- logOut -->
+        <test-method status="PASS" signature="closeApp()[pri:0, instance:test.DemoA@6d00a15d]" name="closeApp" is-config="true" duration-ms="0" started-at="2017-09-10T12:25:46Z" finished-at="2017-09-10T12:25:46Z">
+          <reporter-output>
+            <line>
+              <![CDATA[closeApp]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- closeApp -->
+        <test-method status="PASS" signature="disconnectDB()[pri:0, instance:test.DemoA@6d00a15d]" name="disconnectDB" is-config="true" duration-ms="0" started-at="2017-09-10T12:25:46Z" finished-at="2017-09-10T12:25:46Z">
+          <reporter-output>
+            <line>
+              <![CDATA[disconnectDB]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- disconnectDB -->
+        <test-method status="PASS" signature="end()[pri:0, instance:test.DemoA@6d00a15d]" name="end" is-config="true" duration-ms="1" started-at="2017-09-10T12:25:46Z" finished-at="2017-09-10T12:25:46Z">
+          <reporter-output>
+            <line>
+              <![CDATA[End]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- end -->
+      </class> <!-- test.DemoA -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test name="Test">
+    <classes>
+      <class name="combinestudy.AbDemo2"/>
+      <class name="test.DemoC"/>
+      <class name="combinestudy.AbDemo3"/>
+      <class name="test.DemoA"/>
+      <class name="test.DemoB"/>
+      <class name="combinestudy.Demo5"/>
+      <class name="combinestudy.IDemo1"/>
+      <class name="qspiders.Demo9"/>
+      <class name="combinestudy.Demo1"/>
+      <class name="combinestudy.D"/>
+      <class name="combinestudy.ConDemo2"/>
+      <class name="combinestudy.Demo3"/>
+      <class name="combinestudy.ConDem"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
